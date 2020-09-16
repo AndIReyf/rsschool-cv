@@ -2,7 +2,7 @@
 ### Contact
 * Location: __Bolzano, Italy__
 * Phone: +39 327 85385
-* E-mail: [sti-a1@mail.ru]((mailto:sti-a1@mail.ru)
+* E-mail: [sti-a1@mail.ru](mailto:sti-a1@mail.ru)
 * GitHub: [AndIReyf](https://github.com/AndIReyf)
 * LinkedIn: [www.linkedin.com/in/andyprudius](www.linkedin.com/in/andyprudius)
   
@@ -42,7 +42,7 @@ Or check my [portfolio]()
   * Location: Bolzano, Italy
   
 ### Education
-* __Donetsk National University__, Master in International Economy, Dates graduation: 2012
+* __Donetsk National University__, Master in International Economy. Date graduation 2012.
 
 ### Self-education
 * Completed Udemy: [Python3](https://www.udemy.com/course/bestpython/), [Python and Django](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/)
