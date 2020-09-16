@@ -11,108 +11,123 @@
 <body>
 <div class="container">
     <header>
-        <h1>Andy Prudius</h1>
-    </header>
-    <main>
-        <section class="contacts">
-            <h3>Contact</h3>
-            <ul>
+        <div class="avatar">
+            <img src="./avatar.jpeg" alt="avatar">
+        </div>
+        <div class="header__info">
+            <h1 class="header__title">Andy Prudius</h1>
+            <ul class="header__contacts">
                 <li>Location: <b>Bolzano, Italy</b></li>
                 <li>Phone: <b>+39 327 85385</b></li>
                 <li>E-mail: <a target="_blank" href="mailto:sti-a1@mail.ru">sti-a1@mail.ru</a></li>
-                <li>GitHub: <a target="_blank" href="https://github.com/AndIReyf">AndIReyf</a></li>
-                <li>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/andyprudius">www.linkedin.com/in/andyprudius</a>
-                </li>
             </ul>
-        </section>
-
+        </div>
+        <div class="header__social">
+            <div class="icon">
+                <a target="_blank" href="https://github.com/AndIReyf">
+                    <img src="./github-1.svg" alt="git">
+                </a>
+            </div>
+            <div class="icon">
+                <a target="_blank" href="https://www.instagram.com/reactrey/">
+                    <img src="./instagram-2016.svg" alt="instagram">
+                </a>
+            </div>
+            <div class="icon">
+                <a target="_blank" href="https://www.linkedin.com/in/andyprudius">
+                    <img src="./linkedin-icon.svg" alt="linkedin">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
         <section class="summery">
-            <h3>Summery</h3>
-            <p>
+            <p class="summery__text">
                 I am a Front-End Developer. I am constantly developing and learning new technology in IT.
                 At the present, I have one+ year of working experience in this field. My goal for the future is
                 growing as a React.js Developer.
             </p>
         </section>
 
+        <section class="experience">
+            <h3 class="title">Experience</h3>
+            <ul class="experience__list">
+                <li>
+                    <strong>React Developer</strong>
+                    <ul class="experience__description">
+                        <li><b>Company:</b> Self-employed</li>
+                        <li><b>Dates Employed:</b> May 2020</li>
+                        <li><b>Employment:</b> Duration 5 mos</li>
+                        <li><b>Location:</b> Bolzano, Italy</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>HTML Developer</strong>
+                    <ul class="experience__description">
+                        <li><b>Company:</b> Self-employed</li>
+                        <li><b>Dates Employed:</b> Sep 2019 – May 2020</li>
+                        <li><b>Employment:</b> Duration 9 mos</li>
+                        <li><b>Location:</b> Bolzano, Italy</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
         <section class="skills">
-            <h3>Skills</h3>
-            <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Rest API</li>
-                <li>Test Driven Development</li>
-                <li>Storybook</li>
-                <li>HTML & CSS</li>
-                <li>SCSS SASS</li>
-                <li>Git</li>
-                <li>Material UI</li>
-                <li>Photoshop, Figma</li>
+            <h3 class="title">Skills</h3>
+            <ul class="skills__list">
+                <li> -JavaScript</li>
+                <li> -TypeScript</li>
+                <li> -React</li>
+                <li> -Redux</li>
+                <li> -Rest API</li>
+                <li> -Test Driven Development</li>
+                <li> -Storybook</li>
+                <li> -HTML & CSS</li>
+                <li> -SCSS SASS</li>
+                <li> -Git</li>
+                <li> -Material UI</li>
+                <li> -Photoshop, Figma</li>
             </ul>
         </section>
 
         <section class="example">
-            <h3>Code examples</h3>
-            <ul>
-                <li>You can find all my code examples here <a target="_blank"
-                                                              href="https://github.com/AndIReyf">GitHub</a></li>
-                <li>Or check my <a href="#">portfolio</a></li>
-            </ul>
-        </section>
-
-        <section class="experience">
-            <h3>Experience</h3>
-            <ul>
-                <li>
-                    <b>React Developer</b>
-                    <ul>
-                        <li>Company: Self-employed</li>
-                        <li>Dates Employed: May 2020</li>
-                        <li>Employment: Duration 5 mos</li>
-                        <li>Location: Bolzano, Italy</li>
-                    </ul>
-                </li>
-                <li>
-                    <b>HTML Developer</b>
-                    <ul>
-                        <li>Company: Self-employed</li>
-                        <li>Dates Employed: Sep 2019 – May 2020</li>
-                        <li>Employment: Duration 9 mos</li>
-                        <li>Location: Bolzano, Italy</li>
-                    </ul>
-                </li>
-            </ul>
+            <h3 class="title">Code examples</h3>
+            <p>
+                You can find all of my code examples here <a target="_blank"
+                                                             href="https://github.com/AndIReyf">GitHub</a>,
+                or check my <a href="#">Portfolio page</a>.
+            </p>
         </section>
 
         <section class="education">
-            <h3>Education</h3>
-            <ul>
-                <li>
-                    <b>Donetsk National University</b>
-                    <br>
+            <div>
+                <h3 class="title">Education</h3>
+                <p class="education__text">
+                    <span><b>Donetsk National University</b></span>
                     <span>Master in International Economy</span>
-                    <br>
-                    <span>Dates graduation: 2012</span>
-                </li>
-            </ul>
-            <h3>Self-education</h3>
-            <ul>
-                <li>
-                    Completed Udemy: <a target="_blank" href="https://www.udemy.com/course/bestpython/">Python3</a>,
-                    <a target="_blank"
-                       href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/">Python
-                        and Django</a>
-                </li>
-                <li>Completed JS & React <a target="_blank" href="https://itgid.info">Itgid</a></li>
-                <li>Completed <a target="_blank" href="https://it-incubator.by">It-incubator</a></li>
-            </ul>
+                    <span>Date graduation: 2012</span>
+                </p>
+            </div>
+            <div>
+                <h3 class="title">Self-education</h3>
+                <ul class="education__list">
+                    <li>
+                        Completed Udemy: <a target="_blank" href="https://www.udemy.com/course/bestpython/">Python3</a>,
+                        <a target="_blank"
+                           href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/">
+                            Python and Django
+                        </a>
+                    </li>
+                    <li>Completed JS & React: <a target="_blank" href="https://itgid.info">Itgid</a></li>
+                    <li>Completed: <a target="_blank" href="https://it-incubator.by">It-incubator</a></li>
+                </ul>
+            </div>
         </section>
 
-        <section class="Language">
-            <h3>Languages</h3>
-            <ul>
+        <section class="language">
+            <h3 class="title">Languages</h3>
+            <ul class="language__list">
                 <li>Italian B2</li>
                 <li>English B2</li>
             </ul>
