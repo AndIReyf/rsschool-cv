@@ -7,9 +7,10 @@
 * LinkedIn: [www.linkedin.com/in/andyprudius](www.linkedin.com/in/andyprudius)
   
 ### Summery
-I'm fast-learning, self-organized and independent a Front-End Developer. I am constantly developing and learning new technology in IT. 
+I'm fast-learning, self-organized and responsible team-player, who loves new and interesting challenges and tasks.
+I am constantly developing and learning new technology in IT. 
 At the present, I have one+ year of working experience in this field. 
-My goal for the future is growing as a React.js Developer.
+My goal for the future is growing as a React.js Developer. 
 
 ### Skills
 * JavaScript
